@@ -1,0 +1,1376 @@
+fileFormatVersion: 2
+guid: cccd7279ec1790c47bc498b9733ec83b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Body_Floor
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Control Module
+    100010: Control Module 1
+    100012: Control Module.001
+    100014: Control Module.001 1
+    100016: Control Module.001_end
+    100018: Control Module.002
+    100020: Control Module.002 1
+    100022: Control Module.003
+    100024: Control Module.004
+    100026: Control Module_end
+    100028: Control_Body
+    100030: Control_Leg_B_L
+    100032: Control_Leg_B_R
+    100034: Control_Leg_F_L
+    100036: Control_Leg_F_R
+    100038: Head_Connection
+    100040: Head_Connection_2
+    100042: Head_Connection_2_end
+    100044: Hemi
+    100046: Hydraulic
+    100048: Hydraulic_2
+    100050: Hydraulic_3
+    100052: Hydraulic_3.001
+    100054: IK_Body
+    100056: IK_Body_3
+    100058: IK_Body_3_end
+    100060: IK_Body_Solver
+    100062: IK_Body_Solver_end
+    100064: IK_Cont_Body_2
+    100066: IK_Cont_Body_2_end
+    100068: IK_Hydraulic_1
+    100070: IK_Hydraulic_2
+    100072: IK_Hydraulic_3
+    100074: IK_Hydraulic_3_end
+    100076: IK_Hydraulic_4
+    100078: IK_Hydraulic_4_end
+    100080: IK_Hydraulic_5
+    100082: IK_Hydraulic_5_end
+    100084: IK_Hydraulic_6
+    100086: IK_Hydraulic_Solver_1
+    100088: IK_Hydraulic_Solver_1_end
+    100090: IK_Hydraulic_Solver_2
+    100092: IK_Hydraulic_Solver_4
+    100094: IK_Hydraulic_Solver_4_end
+    100096: IK_Hydraulic_Solver_5
+    100098: IK_Hydraulic_Solver_5_end
+    100100: IK_Hydraulic_Solver_6
+    100102: IK_Hydraulic_Solver_6_end
+    100104: Neck_Mech
+    100106: Neck_Mech.
+    100108: Neck_Mech..001
+    100110: Neck_Mech.001
+    100112: Neck_Mech.002
+    100114: Neck_Mech.003
+    100116: Neck_Mech.004
+    100118: Neck_Mech.006
+    100120: Neck_Mech.007
+    100122: Neck_Mech.008
+    100124: Neck_Mech.009
+    100126: Neck_Mech.010
+    100128: Neck_Mech.011
+    100130: Neck_Mech.012
+    100132: Neck_Mech.013
+    100134: Neck_Mech.014
+    100136: Neck_Mech.015
+    100138: Neck_Mech.016
+    100140: Neck_Mech_Head
+    100142: Neck_Mech_Rig
+    100144: Neck_Mech_Walker
+    100146: //RootNode
+    100148: Walker
+    100150: Walker 1
+    100152: Walker.001
+    100154: Walker.002
+    100156: Walker.002 1
+    100158: Walker.002_end
+    100160: Walker.003
+    100162: Walker.004
+    100164: Walker.004 1
+    100166: Walker.004_end
+    100168: Walker.005
+    100170: Walker.006
+    100172: Walker.006 1
+    100174: Walker.006_end
+    100176: Walker.007
+    100178: Walker.008
+    100180: Walker.009
+    100182: Walker.009 1
+    100184: Walker.009_end
+    100186: Walker.010
+    100188: Walker.010 1
+    100190: Walker.010_end
+    100192: Walker.011
+    100194: Walker.012
+    100196: Walker.013
+    100198: Walker.013 1
+    100200: Walker.013_end
+    100202: Walker.014
+    100204: Walker.015
+    100206: Walker.015 1
+    100208: Walker.015_end
+    100210: Walker.016
+    100212: Walker.016 1
+    100214: Walker.016_end
+    100216: Walker.017
+    100218: Walker.018
+    100220: Walker.018 1
+    100222: Walker.019
+    100224: Walker.019 1
+    100226: Walker.020
+    100228: Walker.020 1
+    100230: Walker.021
+    100232: Walker.021 1
+    100234: Walker.022
+    100236: Walker.022 1
+    100238: Walker.023
+    100240: Walker.024
+    100242: Walker.025
+    100244: Walker.026
+    100246: Walker.027
+    100248: Walker.028
+    100250: Walker.028_end
+    100252: Walker.029
+    100254: Walker.030
+    100256: Walker.030_end
+    100258: Walker.031
+    100260: Walker.032
+    100262: Walker.033
+    100264: Walker.034
+    100266: Walker.035
+    100268: Walker.036
+    100270: Walker.037
+    100272: Walker.038
+    100274: Walker.038_end
+    100276: Walker.039
+    100278: Walker.040
+    100280: Walker.041
+    100282: Walker.042
+    100284: Walker.043
+    100286: Walker.044
+    100288: Walker.045
+    100290: Walker.046
+    100292: Walker.047
+    100294: Walker.048
+    100296: Walker.048_end
+    100298: Walker.049
+    100300: Walker.050
+    100302: Walker.050_end
+    100304: Walker.051
+    100306: Walker.052
+    100308: Walker.053
+    100310: Walker.054
+    100312: Walker.055
+    100314: Walker.056
+    100316: Walker.057
+    100318: Walker.058
+    100320: Walker.058_end
+    100322: Walker_1
+    100324: Walker_1.002
+    100326: Walker_1.003
+    100328: Walker_1.004
+    100330: Walker_1.005
+    100332: Walker_1.010
+    100334: Walker_10
+    100336: Walker_10.001
+    100338: Walker_and_Neck_Mech
+    100340: Walker_ball
+    100342: Walker_ball.001
+    100344: Walker_ball.002
+    100346: Walker_ball.003
+    100348: Walker_Body_Con
+    100350: Walker_Body_Con_end
+    100352: Walker_end
+    100354: Walker_Glas
+    100356: Walker_Leg
+    100358: Walker_Leg.001
+    100360: Walker_Leg.002
+    100362: Walker_Leg.003
+    100364: Walker_Leg.004
+    100366: Walker_Leg.005
+    100368: Walker_Leg_10
+    100370: Walker_Leg_10.001
+    100372: Walker_Leg_10.002
+    100374: Walker_Leg_10.003
+    100376: Walker_Leg_11
+    100378: Walker_Leg_11.001
+    100380: Walker_Leg_11.002
+    100382: Walker_Leg_11.003
+    100384: Walker_Leg_2
+    100386: Walker_Leg_2.001
+    100388: Walker_Leg_2.002
+    100390: Walker_Leg_2.003
+    100392: Walker_Leg_2.004
+    100394: Walker_Leg_3
+    100396: Walker_Leg_3.001
+    100398: Walker_Leg_3.002
+    100400: Walker_Leg_3.003
+    100402: Walker_Leg_3.004
+    100404: Walker_Leg_3.005
+    100406: Walker_Leg_4
+    100408: Walker_Leg_4.001
+    100410: Walker_Leg_4.002
+    100412: Walker_Leg_4.003
+    100414: Walker_Leg_4.004
+    100416: Walker_Leg_4.005
+    100418: Walker_Leg_4.006
+    100420: Walker_Leg_4.007
+    100422: Walker_Leg_4.008
+    100424: Walker_Leg_4.009
+    100426: Walker_Leg_5
+    100428: Walker_Leg_5.001
+    100430: Walker_Leg_5.002
+    100432: Walker_Leg_5.003
+    100434: Walker_Leg_6
+    100436: Walker_Leg_6.001
+    100438: Walker_Leg_7
+    100440: Walker_Leg_7.001
+    100442: Walker_Leg_7.002
+    100444: Walker_Leg_7.003
+    100446: Walker_Leg_8
+    100448: Walker_Leg_8.001
+    100450: Walker_Leg_8.002
+    100452: Walker_Leg_8.003
+    100454: Walker_Leg_9
+    100456: Walker_Leg_9.001
+    100458: Walker_Leg_9.002
+    100460: Walker_Leg_9.003
+    100462: Walker_Leg_L_F.001
+    400000: Body_Floor
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Control Module
+    400010: Control Module 1
+    400012: Control Module.001
+    400014: Control Module.001 1
+    400016: Control Module.001_end
+    400018: Control Module.002
+    400020: Control Module.002 1
+    400022: Control Module.003
+    400024: Control Module.004
+    400026: Control Module_end
+    400028: Control_Body
+    400030: Control_Leg_B_L
+    400032: Control_Leg_B_R
+    400034: Control_Leg_F_L
+    400036: Control_Leg_F_R
+    400038: Head_Connection
+    400040: Head_Connection_2
+    400042: Head_Connection_2_end
+    400044: Hemi
+    400046: Hydraulic
+    400048: Hydraulic_2
+    400050: Hydraulic_3
+    400052: Hydraulic_3.001
+    400054: IK_Body
+    400056: IK_Body_3
+    400058: IK_Body_3_end
+    400060: IK_Body_Solver
+    400062: IK_Body_Solver_end
+    400064: IK_Cont_Body_2
+    400066: IK_Cont_Body_2_end
+    400068: IK_Hydraulic_1
+    400070: IK_Hydraulic_2
+    400072: IK_Hydraulic_3
+    400074: IK_Hydraulic_3_end
+    400076: IK_Hydraulic_4
+    400078: IK_Hydraulic_4_end
+    400080: IK_Hydraulic_5
+    400082: IK_Hydraulic_5_end
+    400084: IK_Hydraulic_6
+    400086: IK_Hydraulic_Solver_1
+    400088: IK_Hydraulic_Solver_1_end
+    400090: IK_Hydraulic_Solver_2
+    400092: IK_Hydraulic_Solver_4
+    400094: IK_Hydraulic_Solver_4_end
+    400096: IK_Hydraulic_Solver_5
+    400098: IK_Hydraulic_Solver_5_end
+    400100: IK_Hydraulic_Solver_6
+    400102: IK_Hydraulic_Solver_6_end
+    400104: Neck_Mech
+    400106: Neck_Mech.
+    400108: Neck_Mech..001
+    400110: Neck_Mech.001
+    400112: Neck_Mech.002
+    400114: Neck_Mech.003
+    400116: Neck_Mech.004
+    400118: Neck_Mech.006
+    400120: Neck_Mech.007
+    400122: Neck_Mech.008
+    400124: Neck_Mech.009
+    400126: Neck_Mech.010
+    400128: Neck_Mech.011
+    400130: Neck_Mech.012
+    400132: Neck_Mech.013
+    400134: Neck_Mech.014
+    400136: Neck_Mech.015
+    400138: Neck_Mech.016
+    400140: Neck_Mech_Head
+    400142: Neck_Mech_Rig
+    400144: Neck_Mech_Walker
+    400146: //RootNode
+    400148: Walker
+    400150: Walker 1
+    400152: Walker.001
+    400154: Walker.002
+    400156: Walker.002 1
+    400158: Walker.002_end
+    400160: Walker.003
+    400162: Walker.004
+    400164: Walker.004 1
+    400166: Walker.004_end
+    400168: Walker.005
+    400170: Walker.006
+    400172: Walker.006 1
+    400174: Walker.006_end
+    400176: Walker.007
+    400178: Walker.008
+    400180: Walker.009
+    400182: Walker.009 1
+    400184: Walker.009_end
+    400186: Walker.010
+    400188: Walker.010 1
+    400190: Walker.010_end
+    400192: Walker.011
+    400194: Walker.012
+    400196: Walker.013
+    400198: Walker.013 1
+    400200: Walker.013_end
+    400202: Walker.014
+    400204: Walker.015
+    400206: Walker.015 1
+    400208: Walker.015_end
+    400210: Walker.016
+    400212: Walker.016 1
+    400214: Walker.016_end
+    400216: Walker.017
+    400218: Walker.018
+    400220: Walker.018 1
+    400222: Walker.019
+    400224: Walker.019 1
+    400226: Walker.020
+    400228: Walker.020 1
+    400230: Walker.021
+    400232: Walker.021 1
+    400234: Walker.022
+    400236: Walker.022 1
+    400238: Walker.023
+    400240: Walker.024
+    400242: Walker.025
+    400244: Walker.026
+    400246: Walker.027
+    400248: Walker.028
+    400250: Walker.028_end
+    400252: Walker.029
+    400254: Walker.030
+    400256: Walker.030_end
+    400258: Walker.031
+    400260: Walker.032
+    400262: Walker.033
+    400264: Walker.034
+    400266: Walker.035
+    400268: Walker.036
+    400270: Walker.037
+    400272: Walker.038
+    400274: Walker.038_end
+    400276: Walker.039
+    400278: Walker.040
+    400280: Walker.041
+    400282: Walker.042
+    400284: Walker.043
+    400286: Walker.044
+    400288: Walker.045
+    400290: Walker.046
+    400292: Walker.047
+    400294: Walker.048
+    400296: Walker.048_end
+    400298: Walker.049
+    400300: Walker.050
+    400302: Walker.050_end
+    400304: Walker.051
+    400306: Walker.052
+    400308: Walker.053
+    400310: Walker.054
+    400312: Walker.055
+    400314: Walker.056
+    400316: Walker.057
+    400318: Walker.058
+    400320: Walker.058_end
+    400322: Walker_1
+    400324: Walker_1.002
+    400326: Walker_1.003
+    400328: Walker_1.004
+    400330: Walker_1.005
+    400332: Walker_1.010
+    400334: Walker_10
+    400336: Walker_10.001
+    400338: Walker_and_Neck_Mech
+    400340: Walker_ball
+    400342: Walker_ball.001
+    400344: Walker_ball.002
+    400346: Walker_ball.003
+    400348: Walker_Body_Con
+    400350: Walker_Body_Con_end
+    400352: Walker_end
+    400354: Walker_Glas
+    400356: Walker_Leg
+    400358: Walker_Leg.001
+    400360: Walker_Leg.002
+    400362: Walker_Leg.003
+    400364: Walker_Leg.004
+    400366: Walker_Leg.005
+    400368: Walker_Leg_10
+    400370: Walker_Leg_10.001
+    400372: Walker_Leg_10.002
+    400374: Walker_Leg_10.003
+    400376: Walker_Leg_11
+    400378: Walker_Leg_11.001
+    400380: Walker_Leg_11.002
+    400382: Walker_Leg_11.003
+    400384: Walker_Leg_2
+    400386: Walker_Leg_2.001
+    400388: Walker_Leg_2.002
+    400390: Walker_Leg_2.003
+    400392: Walker_Leg_2.004
+    400394: Walker_Leg_3
+    400396: Walker_Leg_3.001
+    400398: Walker_Leg_3.002
+    400400: Walker_Leg_3.003
+    400402: Walker_Leg_3.004
+    400404: Walker_Leg_3.005
+    400406: Walker_Leg_4
+    400408: Walker_Leg_4.001
+    400410: Walker_Leg_4.002
+    400412: Walker_Leg_4.003
+    400414: Walker_Leg_4.004
+    400416: Walker_Leg_4.005
+    400418: Walker_Leg_4.006
+    400420: Walker_Leg_4.007
+    400422: Walker_Leg_4.008
+    400424: Walker_Leg_4.009
+    400426: Walker_Leg_5
+    400428: Walker_Leg_5.001
+    400430: Walker_Leg_5.002
+    400432: Walker_Leg_5.003
+    400434: Walker_Leg_6
+    400436: Walker_Leg_6.001
+    400438: Walker_Leg_7
+    400440: Walker_Leg_7.001
+    400442: Walker_Leg_7.002
+    400444: Walker_Leg_7.003
+    400446: Walker_Leg_8
+    400448: Walker_Leg_8.001
+    400450: Walker_Leg_8.002
+    400452: Walker_Leg_8.003
+    400454: Walker_Leg_9
+    400456: Walker_Leg_9.001
+    400458: Walker_Leg_9.002
+    400460: Walker_Leg_9.003
+    400462: Walker_Leg_L_F.001
+    2100000: Walker
+    2100002: Neck_Mech
+    2100004: Walker_Glas
+    2100006: Control Module
+    2300000: Control Module 1
+    2300002: Control Module.001 1
+    2300004: Control Module.002 1
+    2300006: Control Module.003
+    2300008: Control Module.004
+    2300010: Neck_Mech
+    2300012: Neck_Mech.
+    2300014: Neck_Mech..001
+    2300016: Neck_Mech.001
+    2300018: Neck_Mech.002
+    2300020: Neck_Mech.003
+    2300022: Neck_Mech.004
+    2300024: Neck_Mech.006
+    2300026: Neck_Mech.007
+    2300028: Neck_Mech.008
+    2300030: Neck_Mech.009
+    2300032: Neck_Mech.010
+    2300034: Neck_Mech.011
+    2300036: Neck_Mech.012
+    2300038: Neck_Mech.013
+    2300040: Neck_Mech.014
+    2300042: Neck_Mech.015
+    2300044: Neck_Mech.016
+    2300046: Neck_Mech_Walker
+    2300048: Walker 1
+    2300050: Walker.001
+    2300052: Walker.002 1
+    2300054: Walker.003
+    2300056: Walker.004 1
+    2300058: Walker.005
+    2300060: Walker.006 1
+    2300062: Walker.007
+    2300064: Walker.008
+    2300066: Walker.009 1
+    2300068: Walker.010 1
+    2300070: Walker.011
+    2300072: Walker.012
+    2300074: Walker.013 1
+    2300076: Walker.014
+    2300078: Walker.015 1
+    2300080: Walker.016 1
+    2300082: Walker.017
+    2300084: Walker.018 1
+    2300086: Walker.019
+    2300088: Walker.020
+    2300090: Walker.021
+    2300092: Walker.022
+    2300094: Walker_1
+    2300096: Walker_1.002
+    2300098: Walker_1.003
+    2300100: Walker_1.004
+    2300102: Walker_1.005
+    2300104: Walker_1.010
+    2300106: Walker_10
+    2300108: Walker_10.001
+    2300110: Walker_and_Neck_Mech
+    2300112: Walker_ball
+    2300114: Walker_ball.001
+    2300116: Walker_ball.002
+    2300118: Walker_ball.003
+    2300120: Walker_Glas
+    2300122: Walker_Leg
+    2300124: Walker_Leg.001
+    2300126: Walker_Leg.002
+    2300128: Walker_Leg.003
+    2300130: Walker_Leg.004
+    2300132: Walker_Leg.005
+    2300134: Walker_Leg_10
+    2300136: Walker_Leg_10.001
+    2300138: Walker_Leg_10.002
+    2300140: Walker_Leg_10.003
+    2300142: Walker_Leg_11
+    2300144: Walker_Leg_11.001
+    2300146: Walker_Leg_11.002
+    2300148: Walker_Leg_11.003
+    2300150: Walker_Leg_2
+    2300152: Walker_Leg_2.001
+    2300154: Walker_Leg_2.002
+    2300156: Walker_Leg_2.003
+    2300158: Walker_Leg_2.004
+    2300160: Walker_Leg_3
+    2300162: Walker_Leg_3.001
+    2300164: Walker_Leg_3.002
+    2300166: Walker_Leg_3.003
+    2300168: Walker_Leg_3.004
+    2300170: Walker_Leg_3.005
+    2300172: Walker_Leg_4
+    2300174: Walker_Leg_4.001
+    2300176: Walker_Leg_4.002
+    2300178: Walker_Leg_4.003
+    2300180: Walker_Leg_4.004
+    2300182: Walker_Leg_4.005
+    2300184: Walker_Leg_4.006
+    2300186: Walker_Leg_4.007
+    2300188: Walker_Leg_4.008
+    2300190: Walker_Leg_4.009
+    2300192: Walker_Leg_5
+    2300194: Walker_Leg_5.001
+    2300196: Walker_Leg_5.002
+    2300198: Walker_Leg_5.003
+    2300200: Walker_Leg_6
+    2300202: Walker_Leg_6.001
+    2300204: Walker_Leg_7
+    2300206: Walker_Leg_7.001
+    2300208: Walker_Leg_7.002
+    2300210: Walker_Leg_7.003
+    2300212: Walker_Leg_8
+    2300214: Walker_Leg_8.001
+    2300216: Walker_Leg_8.002
+    2300218: Walker_Leg_8.003
+    2300220: Walker_Leg_9
+    2300222: Walker_Leg_9.001
+    2300224: Walker_Leg_9.002
+    2300226: Walker_Leg_9.003
+    2300228: Walker_Leg_L_F.001
+    3300000: Control Module 1
+    3300002: Control Module.001 1
+    3300004: Control Module.002 1
+    3300006: Control Module.003
+    3300008: Control Module.004
+    3300010: Neck_Mech
+    3300012: Neck_Mech.
+    3300014: Neck_Mech..001
+    3300016: Neck_Mech.001
+    3300018: Neck_Mech.002
+    3300020: Neck_Mech.003
+    3300022: Neck_Mech.004
+    3300024: Neck_Mech.006
+    3300026: Neck_Mech.007
+    3300028: Neck_Mech.008
+    3300030: Neck_Mech.009
+    3300032: Neck_Mech.010
+    3300034: Neck_Mech.011
+    3300036: Neck_Mech.012
+    3300038: Neck_Mech.013
+    3300040: Neck_Mech.014
+    3300042: Neck_Mech.015
+    3300044: Neck_Mech.016
+    3300046: Neck_Mech_Walker
+    3300048: Walker 1
+    3300050: Walker.001
+    3300052: Walker.002 1
+    3300054: Walker.003
+    3300056: Walker.004 1
+    3300058: Walker.005
+    3300060: Walker.006 1
+    3300062: Walker.007
+    3300064: Walker.008
+    3300066: Walker.009 1
+    3300068: Walker.010 1
+    3300070: Walker.011
+    3300072: Walker.012
+    3300074: Walker.013 1
+    3300076: Walker.014
+    3300078: Walker.015 1
+    3300080: Walker.016 1
+    3300082: Walker.017
+    3300084: Walker.018 1
+    3300086: Walker.019
+    3300088: Walker.020
+    3300090: Walker.021
+    3300092: Walker.022
+    3300094: Walker_1
+    3300096: Walker_1.002
+    3300098: Walker_1.003
+    3300100: Walker_1.004
+    3300102: Walker_1.005
+    3300104: Walker_1.010
+    3300106: Walker_10
+    3300108: Walker_10.001
+    3300110: Walker_and_Neck_Mech
+    3300112: Walker_ball
+    3300114: Walker_ball.001
+    3300116: Walker_ball.002
+    3300118: Walker_ball.003
+    3300120: Walker_Glas
+    3300122: Walker_Leg
+    3300124: Walker_Leg.001
+    3300126: Walker_Leg.002
+    3300128: Walker_Leg.003
+    3300130: Walker_Leg.004
+    3300132: Walker_Leg.005
+    3300134: Walker_Leg_10
+    3300136: Walker_Leg_10.001
+    3300138: Walker_Leg_10.002
+    3300140: Walker_Leg_10.003
+    3300142: Walker_Leg_11
+    3300144: Walker_Leg_11.001
+    3300146: Walker_Leg_11.002
+    3300148: Walker_Leg_11.003
+    3300150: Walker_Leg_2
+    3300152: Walker_Leg_2.001
+    3300154: Walker_Leg_2.002
+    3300156: Walker_Leg_2.003
+    3300158: Walker_Leg_2.004
+    3300160: Walker_Leg_3
+    3300162: Walker_Leg_3.001
+    3300164: Walker_Leg_3.002
+    3300166: Walker_Leg_3.003
+    3300168: Walker_Leg_3.004
+    3300170: Walker_Leg_3.005
+    3300172: Walker_Leg_4
+    3300174: Walker_Leg_4.001
+    3300176: Walker_Leg_4.002
+    3300178: Walker_Leg_4.003
+    3300180: Walker_Leg_4.004
+    3300182: Walker_Leg_4.005
+    3300184: Walker_Leg_4.006
+    3300186: Walker_Leg_4.007
+    3300188: Walker_Leg_4.008
+    3300190: Walker_Leg_4.009
+    3300192: Walker_Leg_5
+    3300194: Walker_Leg_5.001
+    3300196: Walker_Leg_5.002
+    3300198: Walker_Leg_5.003
+    3300200: Walker_Leg_6
+    3300202: Walker_Leg_6.001
+    3300204: Walker_Leg_7
+    3300206: Walker_Leg_7.001
+    3300208: Walker_Leg_7.002
+    3300210: Walker_Leg_7.003
+    3300212: Walker_Leg_8
+    3300214: Walker_Leg_8.001
+    3300216: Walker_Leg_8.002
+    3300218: Walker_Leg_8.003
+    3300220: Walker_Leg_9
+    3300222: Walker_Leg_9.001
+    3300224: Walker_Leg_9.002
+    3300226: Walker_Leg_9.003
+    3300228: Walker_Leg_L_F.001
+    4300000: Walker_and_Neck_Mech
+    4300002: Walker_10.001
+    4300004: Walker_ball.001
+    4300006: Walker_Leg_9.001
+    4300008: Walker_Leg_11.001
+    4300010: Walker_Leg_10.003
+    4300012: Walker_Leg_4.007
+    4300014: Walker_Leg_8
+    4300016: Walker_Leg_7.001
+    4300018: Walker_Leg_5.001
+    4300020: Walker_Leg_3.001
+    4300022: Walker_Leg
+    4300024: Walker_Leg_6.001
+    4300026: Walker_Leg_2
+    4300028: Walker_Leg_5.003
+    4300030: Neck_Mech.015
+    4300032: Walker.003
+    4300034: Walker.002
+    4300036: Walker.001
+    4300038: Neck_Mech.014
+    4300040: Neck_Mech.013
+    4300042: Neck_Mech.
+    4300044: Neck_Mech.004
+    4300046: Walker_1.005
+    4300048: Neck_Mech.006
+    4300050: Walker_1.002
+    4300052: Neck_Mech
+    4300054: Neck_Mech.001
+    4300056: Neck_Mech.016
+    4300058: Walker_1.010
+    4300060: Neck_Mech.007
+    4300062: Neck_Mech.010
+    4300064: Neck_Mech_Walker
+    4300066: Walker_Glas
+    4300068: Walker.006
+    4300070: Walker.007
+    4300072: Walker.008
+    4300074: Walker.011
+    4300076: Walker.012
+    4300078: Walker.009
+    4300080: Walker.005
+    4300082: Walker
+    4300084: Walker.022
+    4300086: Walker.017
+    4300088: Walker.021
+    4300090: Walker.019
+    4300092: Walker.018
+    4300094: Walker.020
+    4300096: Control Module.004
+    4300098: Control Module.001
+    4300100: Control Module
+    4300102: Control Module.003
+    4300104: Control Module.002
+    7400000: Neck_Mech_Rig|0
+    7400002: Neck_Mech_Rig|All_Animations
+    7400004: Neck_Mech_Rig|Broken_1
+    7400006: Neck_Mech_Rig|Broken_2
+    7400008: Neck_Mech_Rig|Idel
+    7400010: Neck_Mech_Rig|Idel_2
+    7400012: Neck_Mech_Rig|Jump
+    7400014: Neck_Mech_Rig|Rest
+    7400016: Neck_Mech_Rig|Rig Test
+    7400018: Neck_Mech_Rig|run
+    7400020: Neck_Mech_Rig|Walk_backwards
+    7400022: Neck_Mech_Rig|Walk_Forward
+    7400024: Neck_Mech_Rig|Walk_Forward_2
+    7400026: Neck_Mech_Rig|Walk_Forward_3
+    7400028: Neck_Mech_Rig|Walk_Forward_4
+    7400030: Neck_Mech_Rig|Walk_Forward_5
+    7400032: Control Module.002|0
+    9500000: //RootNode
+    10800000: Hemi
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Control Module
+    second: {fileID: 2100000, guid: 17676d951a6cb1d4fa5d49e6328bb960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neck_Mech
+    second: {fileID: 2100000, guid: 8f3b3031ba09d9842bd0999266ae288a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walker
+    second: {fileID: 2100000, guid: 4629a6b2cdca99f468e054e3f03ad611, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walker_Glas
+    second: {fileID: 2100000, guid: ed42c39933f1241419c29bd9b5fbd19d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Control_Module_color
+    second: {fileID: 2800000, guid: bdf350194617f1347a6c98472cd5c0a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Control_Module_nmap
+    second: {fileID: 2800000, guid: 761f5a9d0dbead3448e701a8b0438315, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Control_Module_rough
+    second: {fileID: 2800000, guid: 82dafed5733c4ef469912cfb36c7254d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hydraulic_col
+    second: {fileID: 2800000, guid: ce3ec90179a9465428eb45071c83d17c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hydraulic_nmap
+    second: {fileID: 2800000, guid: 19d7b9078095ff14f959f1331744d0db, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hydraulic_rough
+    second: {fileID: 2800000, guid: b62811643a9fa6a4d8d92a9a367ce5ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ref
+    second: {fileID: 2800000, guid: b9b6943f03a453a4ba0afe7366ce2b80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walker_color
+    second: {fileID: 2800000, guid: 38047a10d93ac6b40972d15812e8fd31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walker_nmap
+    second: {fileID: 2800000, guid: 0839ee4987c1be74da72850fa6a98ca6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: walker_rough
+    second: {fileID: 2800000, guid: d8697483db0a8b449a409c0c1eeba425, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|0
+      takeName: Neck_Mech_Rig|0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|All_Animations
+      takeName: Neck_Mech_Rig|All_Animations
+      firstFrame: 0
+      lastFrame: 2545
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Broken_1
+      takeName: Neck_Mech_Rig|Broken_1
+      firstFrame: 0
+      lastFrame: 201
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Broken_2
+      takeName: Neck_Mech_Rig|Broken_2
+      firstFrame: 0
+      lastFrame: 121
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Idel
+      takeName: Neck_Mech_Rig|Idel
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Idel_2
+      takeName: Neck_Mech_Rig|Idel_2
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Jump
+      takeName: Neck_Mech_Rig|Jump
+      firstFrame: 0
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Rest
+      takeName: Neck_Mech_Rig|Rest
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Rig Test
+      takeName: Neck_Mech_Rig|Rig Test
+      firstFrame: 0
+      lastFrame: 1020
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|run
+      takeName: Neck_Mech_Rig|run
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Walk_backwards
+      takeName: Neck_Mech_Rig|Walk_backwards
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Walk_Forward
+      takeName: Neck_Mech_Rig|Walk_Forward
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Walk_Forward_2
+      takeName: Neck_Mech_Rig|Walk_Forward_2
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Walk_Forward_3
+      takeName: Neck_Mech_Rig|Walk_Forward_3
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Walk_Forward_4
+      takeName: Neck_Mech_Rig|Walk_Forward_4
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Neck_Mech_Rig|Walk_Forward_5
+      takeName: Neck_Mech_Rig|Walk_Forward_5
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
