@@ -71,6 +71,9 @@ public class player: MonoBehaviour
     public float mousespeed = 100f;
     public CharacterController mycontroller;
     public Transform myCemeraHead;
+    public GameObject bullet;
+    public Transform firePosition;
+    
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -133,9 +136,27 @@ public class player: MonoBehaviour
     {
         playermovementkey();
         playermovementmous();
-
+        Shoot();
     }
 
+    private void Shoot()//i make
+    {
+        if (Input.GetMouseButtonDown(0))//this mathod i fire left button in my mouse
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(myCemeraHead.position, myCemeraHead.forward, out hit, 100f))
+            {
+                firePosition.LookAt(hit.point);
+            }
+            else
+            {
+                firePosition.LookAt(myCemeraHead.position+(myCemeraHead.forward *50f));
+            }
+            Instantiate(bullet, firePosition.position, firePosition.rotation); 
+
+
+        }
+    }
     void playermovementkey()
     {
         {
