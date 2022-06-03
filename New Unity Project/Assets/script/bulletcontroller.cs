@@ -7,7 +7,7 @@ public class bulletcontroller : MonoBehaviour
     public float speed;
 
     public Rigidbody myRigidbody;
-    
+ 
     void Start()
     {
         
